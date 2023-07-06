@@ -1,0 +1,327 @@
+*{
+    margin: none;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/*################# Start Nav #######################33 */
+.opacity_background{ 
+    position: absolute;
+    height: 740px;
+    width: 100%;
+    top: 0;
+    left: 0;
+   opacity: 0.27;
+   
+    background:url(img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+ z-index: 99;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+ z-index: 999;
+ background-color: white;
+
+}
+.container .nav-item .nav-link{
+color:white;
+/* font-weight: 600; */
+font-family:serif;
+transition: all 0.3s;
+color: black;
+font-size: 18px;
+
+
+}
+
+.container .nav-item .nav-link:hover{
+    color: #f4623a;
+    padding-top:10px ;
+}
+.navbar-brand{
+ font-size: 25px;
+ font-weight: 600;
+ color:black;
+}
+
+.navbar-brand:hover{
+    color:black;
+
+}
+
+nav .fa-bars{
+  font-size: 27px;
+ border-radius: 5px;
+ border-style: solid;
+ padding: 8px;
+ border-width: 1px;
+ border-color: rgb(210, 209, 209);
+
+}
+
+
+/*################# Start Header #######################33 */
+header .btn{
+    background-color: #f4623a;
+    color:white;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 50px;
+    padding:12px 20px ;
+
+    transition: all 0.2s;
+   
+}
+ header.btn:hover{
+    background-color: #d1522f;
+    font-size: 17px;
+    color: white;
+}
+.mask div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+}
+.text-white{
+    z-index: 99;
+}
+.text-white h1{
+    font-size: 50px;
+    font-family:serif;
+    font-weight: 700;
+    padding-bottom:20px ;
+   
+}
+.text-white div p{
+    margin-top: 20px;
+    color: rgb(211, 209, 209);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+
+/*################# Start About Section #######################33 */
+ #About{
+width: 100%;
+
+background-color:#f4623a;
+ }
+ .aboutText{
+ padding: 100px;
+    text-align: center;
+    color: white;
+   
+ }
+ .aboutText h1{
+    margin-bottom: 30px;
+   
+   
+ }
+
+ .hr{
+    width: 50px;
+     height: 5px;
+     background-color: white;
+     border-radius: 5px;
+     margin: auto;
+     margin-bottom: 30px;
+    
+     color: white;
+
+ }
+
+ .aboutText p{
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #ebeaea;
+ }
+
+ .btn{
+    background-color:white ;
+    color:#f4623a;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 50px;
+    padding:12px 20px ;
+
+    transition: all 0.2s;
+   
+}
+ .btn:hover{
+    background-color:rgb(237, 237, 237);
+    font-size: 17px;
+    color:#f4623a;
+}
+/*################# Start Services Section #######################33 */
+#Services{
+width: 100%;
+}
+.serviceSec{
+    text-align: center;
+    margin: 100px;
+}
+.serviceSec h1 {
+    color: black;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.serviceSec h2{
+    font-size: 25px;
+  
+    color: rgba(0, 0, 0, 0.855);
+    
+    text-transform: capitalize;
+}
+.serviceSec p{
+   
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+    
+}
+
+
+/*################# Start Portfolio Section #######################33 */
+#Portfolio {
+    width: 100%;
+    background-color: rgb(31, 27, 27);
+    padding: 100px 0px;
+   
+}
+#Portfolio .card {
+    background-color: rgb(31, 27, 27);
+
+
+}
+#Portfolio .card img {
+    width: 100%;
+margin-bottom: 5px;
+   border: none;
+   box-sizing: border-box;
+    
+  
+}
+ .detail{
+    background-color:#f4623a;
+    position:absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    opacity: 0;
+   transition: all 0.5s;
+   width:96%;
+   height: 99%;
+   cursor: pointer;
+   
+}
+#Portfolio .detail:hover{
+    opacity: 0.8;
+}
+.detail h5{
+color: #ddd;
+}
+.detail h4{
+  text-decoration: none;
+  color: white;
+    }
+
+    #Portfolio .headPort{
+    color:white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+/*################# Start Contact  Section #######################33 */
+#Contact{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+  
+}
+
+#Contact .row {
+    border: 1px solid white ;
+   border-radius: 40px;
+   padding: 20px;
+   box-shadow: 0 0 5px 0 ;
+   margin: auto;
+
+}
+.headCont{
+    color:#f4623a;
+    text-align: center;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    
+}
+#Contact form {
+   text-align: center;
+   width: 100%;
+   /* height: 100%; */
+   margin: auto;
+   
+}
+#Contact form input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border-color:rgb(221, 220, 220) ;
+
+    margin-bottom: 20px;
+   color: black;
+}
+
+#Contact form input::placeholder{
+ font-family: 'Times New Roman', Times, serif;
+ color: black;
+ font-size: 18px;
+}
+#Contact form .massage{
+    padding-bottom: 200px;
+}
+#Contact input[type=submit]{
+    border-radius: 20px;
+    padding:8px 20px;
+    background-color: #f4623a;
+    color: white;
+    border-color: #f4623a;
+    transition: 0.5s;
+    font-weight: 500;
+    margin:20px  auto;
+}
+#Contact input[type=submit]:hover{
+    background-color: white ;
+    color: #f4623a;
+}
+
+#Contact .error{
+    color: #ff0000;
+   
+}
+
+
+
+
+
+/* Footer */
+footer .bttn{
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-decoration: none;
+   
+   
+}
